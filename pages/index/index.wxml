@@ -1,4 +1,25 @@
 <!--index.wxml-->
-<view class="container">
-  Weixin
+<view class="page lll-flex lll-flow-column index-page">
+  <scroll-view scroll-y="true" class="reply-bg">
+    <view class="lll-flex lll-justify-content-between lll-align-items-start reply-row person">
+      <image class="reply-img img-gpt" src="/images/chat.png"></image>
+      <view class="reply-txt--bg">
+        <view class="reply-txt">你好，你是</view>
+      </view>
+      <image class="reply-img img-person" src="/images/logo.png"></image>
+    </view>
+    <view class="lll-flex lll-justify-content-between lll-align-items-start reply-row gpt">
+      <image class="reply-img img-gpt" src="/images/chat.png"></image>
+      <view class="reply-txt--bg">
+        <view class="reply-txt">你好我是人工智能ChatGPT,一个由OpenAI训练的大型语言模型。</view>
+      </view>
+      <image class="reply-img img-person" src="/images/logo.png"></image>
+    </view>
+  </scroll-view>
+  <view class="question-bg lll-flex lll-align-items-center">
+    <input type="text" class="qustion-input" placeholder="你想和我聊点什么？" value="{{ question }}" />
+    <view class="seng-btn lll-align-items-center lll-flex lll-justify-content-center">
+      <image class="send-img" src="/images/send.png"></image>
+    </view>
+  </view>
 </view>

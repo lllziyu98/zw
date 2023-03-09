@@ -1,2 +1,4 @@
 <!--pages/person.wxml-->
-<text>pages/person.wxml</text>
+<view class="page">
+  
+</view>

@@ -12,6 +12,17 @@ Page({
     loading: false
   },
 
+  getUserInfo() {
+    wx.getUserInfo({
+      success: function(res) {
+        console.log('res', res)
+      },
+      fail: function(res) {
+        console.log('res-fail', res)
+      }
+    })
+  },
+
   /**
    * 生命周期函数--监听页面加载
    */

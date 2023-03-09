@@ -20,7 +20,7 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "主页",
+        "text": "聊天",
         "iconPath": "/images/index.png",
         "selectedIconPath": "/images/index-active.png"
       },

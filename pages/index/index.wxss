@@ -1,1 +1,114 @@
 /**index.wxss**/
+.index-page {
+  background-color: rgb(237, 237, 237);
+}
+
+.reply-bg {
+  flex: 1 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40rpx 20rpx;
+}
+
+.question-bg {
+  flex: 0 1;
+  width: 100%;
+  padding: 20rpx;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+.qustion-input {
+  flex: 1 0;
+  width: 0;
+  background-color: rgb(237, 237, 237);
+  box-sizing: border-box;
+  height: 80rpx;
+  margin: 0 20rpx 0 0;
+  border-radius: 16rpx;
+  text-align: center;
+}
+
+.seng-btn {
+  flex: 0 0 140rpx;
+  width: 0;
+  height: 80rpx;
+  background-color: rgb(235, 235, 237);
+  border: 4rpx solid rgb(132, 129, 146);
+  border-radius: 16rpx;
+  box-sizing: border-box;
+}
+
+.send-img {
+  flex: 0 0 50rpx;
+  width: 0;
+  height: 50rpx;
+}
+
+.reply-row {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 0 30rpx;
+}
+
+.reply-row:last-child {
+  margin: 0;
+}
+
+.reply-img {
+  flex: 0 0 100rpx;
+  width: 0;
+  height: 100rpx;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 4rpx solid #FFA500;
+}
+
+.img-gpt {
+  margin: 0 20rpx 0 0;
+}
+
+.img-person {
+  margin: 0 0 0 20rpx;
+}
+
+.reply-txt--bg {
+  flex: 1 0;
+  width: 0;
+  box-sizing: border-box;
+}
+
+.reply-txt {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 30rpx;
+  font-size: 30rpx;
+  line-height: 1.5;
+  white-space: break-spaces;
+  word-wrap: break-word;
+  word-break: normal;
+}
+
+.reply-bg .person .img-gpt {
+  opacity: 0;
+}
+
+.reply-bg .gpt .img-person {
+  opacity: 0;
+}
+
+.reply-bg .gpt .reply-txt {
+  background-color: rgb(215, 216, 218);
+  border-radius: 8rpx 32rpx 32rpx 32rpx;
+  color: rgba(40, 41, 44, 1);
+}
+
+.reply-bg .person .reply-txt--bg {
+  text-align: right;
+}
+
+.reply-bg .person .reply-txt {
+  background-color: rgb(23, 27, 47);
+  border-radius: 32rpx 8rpx 32rpx 32rpx;
+  color: rgba(255, 255, 255, 1);
+}
