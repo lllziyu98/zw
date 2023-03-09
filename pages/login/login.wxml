@@ -1,0 +1,18 @@
+<!--pages/login/login.wxml-->
+<view class="page">
+  <image class="logo" src="/images/logo.png"></image>
+  <view class="login-form">
+    <view class="lll-flex lll-align-items-center login-form-row">
+      <text class="form-label">用户名：</text>
+      <input type="text" class="form-input" value="{{ user.name }}" />
+    </view>
+    <view class="lll-flex lll-align-items-center login-form-row">
+      <text class="form-label">密码：</text>
+      <input type="text" class="form-input" value="{{ user.psd }}" />
+    </view>
+    <view class="lll-flex lll-justify-content-center lll-align-items-center login-form-row">
+      <button type="primary" loading="{{ loading }}">登录</button>
+    </view>
+    <view class="go-resgister">还没账号？去注册</view>
+  </view>
+</view>

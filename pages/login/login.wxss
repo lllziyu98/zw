@@ -1,0 +1,44 @@
+/* pages/login/login.wxss */
+.logo {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  display: block;
+  margin: 160rpx auto 0;
+}
+
+.form-input {
+  flex: 1 0;
+  width: 0;
+  padding: 6rpx 20rpx;
+  border-radius: 4rpx;
+  border: 1px solid #a5a5a5;
+  color: #888888;
+}
+
+.login-form {
+  width: 60%;
+  margin: 80rpx auto 0;
+}
+
+.form-label {
+  flex: 0 0 120rpx;
+  width: 0;
+  text-align: right;
+}
+
+.login-form-row {
+  margin: 40rpx 0 0;
+}
+
+.login-form-row:first-child {
+  margin: 0;
+}
+
+.go-resgister {
+  font-size: 28rpx;
+  line-height: 1.2;
+  text-align: center;
+  margin: 50rpx 0 0;
+  color: #066FF5;
+}
